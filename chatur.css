@@ -1,0 +1,191 @@
+*{
+    box-sizing:border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("IMG_20200604_093612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 6px;
+    background-color: rgba(60, 161, 255, 0.3);   
+    padding: 15px;
+}
+.ch3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 140, 255);
+    font-size: xx-large;
+
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    width: 95%;
+    box-shadow: 1px 0px 2px 0px black;
+border-radius: 40px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px; 
+/* border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;  */
+    background: white;
+
+}
+
+input[type=text]{
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    margin-bottom: 10px;
+    /* background: transparent; */
+    width: 80%;
+    font-size: larger;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    border-radius: 7px;
+  
+    
+    height: 40px; 
+}
+/* .bottom:hover{
+    background: grey;
+} */
+input[type=text]::placeholder{
+    color: rgb(255, 0, 0);
+}
+
+input[type=submit]{
+    border: none;
+    float: right;
+    margin-right: 17px;
+    margin-top: 5px;
+    padding: 10px;
+    background: transparent;
+  color: rgb(255, 0, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(45deg,aqua,rgb(255, 0, 98)); */
+    /* border: 1px solid black; */
+    /* border-top-right-radius: 40px; */
+    /* border-bottom-right-radius: 40px; */
+   
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    outline: none;
+    
+    transition: .5s;
+}
+input[type=submit]:hover{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgba(168, 165, 165, 0.452);
+
+}
+
+#ul{
+    margin-left: 300px;
+}
+.me1{
+    margin-top: 5px;
+    background:teal;
+    width: 180px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    color:rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.me1::after{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    content: "me";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background:teal;
+    left: 172px;
+    padding: 1px;
+    top: -10px;
+    text-align: center;
+
+    box-shadow: 0px 1px 2px black;
+
+}
+.container{
+    width: 100%;
+    position: absolute;
+    height: 70%;
+    background: linear-gradient(365deg,rgba(255, 255, 255, 0.8),transparent);
+    background-size: cover;
+    border: none;
+    overflow-y: auto; 
+    
+
+    
+}
+.container::-webkit-scrollbar{
+    display: none;
+    
+}
+.re{
+    position: relative;
+    cursor: pointer;
+    margin-left: 104px;
+    background: white;
+    width: 180px;
+    font-weight: 500;
+    color: rgb(31, 121, 255);
+    padding: 5px;
+    box-shadow: 0px 1px 2px black;
+    margin-top: 4px;
+    border-radius: 5px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.re::after{
+    box-shadow: 0px 1px 2px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    content: "Bot";
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 50%;
+    background:white;
+    left: 160px;
+    top: -14px;
+    text-align: center;
+}
+
+.t2{
+    color: rgb(255, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    font-size: small;
+}
+.t1{
+    font-size: small;
+    color: rgb(0, 132, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+}
+input[tyepe=text]::-webkit-input-placeholder{
+    color: red;
+}
