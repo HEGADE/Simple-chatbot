@@ -1,4 +1,4 @@
 # Simple-chatbot
 
-THis is simple chatbot made with html css php and js
+This is simple chatbot made with html css php and js
 
